@@ -40,6 +40,8 @@
  
  Perform the following steps on the given dataset(MNIST) using [noise.py](https://github.com/sunil-17112/Standard-method-apply-on-MNIST-data/blob/master/noise.py) :
  
+ Before this comment_in Line 116 and Comment_out Line 118 - 123
+ 
  a. Add Gaussian noise to the dataset. (NOTE: You can take mean=0 and
  variance can be varied upon your choice such that the noise reduction can
  be seen clearly from the image.)
