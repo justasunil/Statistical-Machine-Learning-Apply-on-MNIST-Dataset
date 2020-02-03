@@ -10,16 +10,16 @@ import pandas as pd
 import pickle
 
 # Reading data from idx format
-train_image = idx2numpy.convert_from_file('/home/techsun/Downloads/MNIST/train-images-idx3-ubyte')
+train_data = idx2numpy.convert_from_file('dir(dataset)/train-images-idx3-ubyte')
 
-train_label = idx2numpy.convert_from_file('/home/techsun/Downloads/MNIST/train-labels-idx1-ubyte')
+train_label = idx2numpy.convert_from_file('dir(dataset)/MNIST/train-labels-idx1-ubyte')
 
-test_image = idx2numpy.convert_from_file('/home/techsun/Downloads/MNIST/t10k-images-idx3-ubyte')
+test_data = idx2numpy.convert_from_file('dir(dataset)/MNIST/t10k-images-idx3-ubyte')
 
-test_label = idx2numpy.convert_from_file('/home/techsun/Downloads/MNIST/t10k-labels-idx1-ubyte')
+test_label = idx2numpy.convert_from_file('dir(dataset)/MNIST/t10k-labels-idx1-ubyte')
 
 
-
+"""
 #------------for test dataset
 with open('test_data','rb') as f:
     test_data=pickle.load(f)
@@ -29,7 +29,7 @@ with open('test_data','rb') as f:
 with open('train_data','rb') as f:
     train_data=pickle.load(f)
 
-
+"""
 def Mean(data):
     size=len(data);
     dim=len(data[0]);
