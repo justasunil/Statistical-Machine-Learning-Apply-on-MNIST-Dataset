@@ -4,7 +4,7 @@
  [MNIST](http://yann.lecun.com/exdb/mnist/)
  
  # DIMENSIONALITY REDUCTION
- Perfrom These task and compare with Report.pdf.
+ Perfrom These task using [code.py](https://github.com/sunil-17112/Standard-method-apply-on-MNIST-data/blob/master/code.py) and compare with Report.pdf.
  
  a. Compute the global mean and covariance of the data.
  
