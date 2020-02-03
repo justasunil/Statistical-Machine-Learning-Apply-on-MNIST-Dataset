@@ -21,14 +21,18 @@
  f. Visualize and analyze the eigenvectors obtained using PCA (only for
  eigenvectors obtained in part(e). I.e., Display eigenvectors by converting
  them into image form).
+ 
  g. Perform step(e) with different eigen energy mentioned below and show the
  comparisons and analysis on accuracy.
+
 
   ● 70% eigen energy
   ● 90% eigen energy
   ● 99% eigen energy
+  
  h. Apply FDA on MNIST and then LDA for classification and report the accuracy
  on test data.
+ 
  i. Perform PCA then FDA. Classify the transformed datasets using LDA.
  Analyze the results on Accuracy.
  
