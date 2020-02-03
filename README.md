@@ -7,12 +7,17 @@
  perfrom some task
  
  a. Compute the global mean and covariance of the data.
+ 
  b. Implement PCA and FDA from scratch.
+ 
  c. Visualize data using a scatter plot after applying PCA & FDA. (You can
  transform the data into 2 dimensions and then plot it.)
+ 
  d. Implement the LDA discriminant function from scratch.
+ 
  e. Apply PCA with 95% eigen energy on MNIST and then LDA for classification
  and report the accuracy on test data.
+ 
  f. Visualize and analyze the eigenvectors obtained using PCA (only for
  eigenvectors obtained in part(e). I.e., Display eigenvectors by converting
  them into image form).
