@@ -112,13 +112,15 @@ def PCA(data,covariance,energy):
     eigv_tran=np.array(eigvectors).transpose()
 
     Y=eigv_tran.dot(np.array(data).transpose());
+    print("success PCA");
+    return Y , eigv_tran;
+    
     """#retrieve image after PCA
     P=np.linalg.pinv(eigvectors.dot(eigv_tran))
     S=P.dot(eigvectors.dot(Y))
-    S_tran=S.transpose()"""
-    
-    print("success PCA");
-    return Y , eigv_tran;
+    S_tran=S.transpose()
+    return S_tran;
+    """
     
 
 
