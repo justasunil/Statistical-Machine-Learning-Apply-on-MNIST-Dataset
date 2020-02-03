@@ -4,7 +4,7 @@
  [MNIST](http://yann.lecun.com/exdb/mnist/)
  
  # DIMENSIONALITY REDUCTION
- perfrom some task
+ Perfrom These task and compare with Report.pdf.
  
  a. Compute the global mean and covariance of the data.
  
