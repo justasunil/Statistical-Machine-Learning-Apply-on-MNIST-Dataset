@@ -54,5 +54,5 @@
  d. Report the number of components for which PCA works the best in Noise
  Reduction.
  
- After performing all task, Delete the changes from [code.py](https://github.com/sunil-17112/Standard-method-apply-on-MNIST-  data/blob/master/code.py) that was done in before.
+ After performing all task, Delete the changes from [code.py](https://github.com/sunil-17112/Standard-method-apply-on-MNIST-data/blob/master/code.py)that was done in before.
  
