@@ -8,7 +8,7 @@ import matplotlib
 import scipy.linalg
 import pandas as pd
 import pickle
-import code
+from code import *
 
 # 2nd part of the assignment
 
