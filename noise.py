@@ -11,6 +11,17 @@ import pickle
 from code import *
 
 # 2nd part of the assignment
+# a. Add Gaussian noise to the dataset. (NOTE: You can take mean=0 and
+#variance can be varied upon your choice such that the noise reduction can
+#be seen clearly from the image.)
+ 
+#b. Perform PCA on the noisy dataset for Noise Reduction.
+ 
+#c. Visualize the dataset before & after noise reduction. (Report the images as
+# shown below. Linear PCA in the below image refers to normal PCA only.).
+ 
+# d. Report the number of components for which PCA works the best in Noise
+# Reduction.
 
 def add_Gausian_noise(data):
     
